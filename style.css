@@ -115,12 +115,26 @@ header {
   width: 100%;
 }
 
+.contact {
+  display: flex;
+}
+
+.contact-title {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #c4c4c4;
+  text-align: center;
+  padding: 20px;
+}
+
 @media (max-width:768px) {
   .city {
     flex-direction: column;
   }
 
-  .services-content {
+  .services-content, .contact {
     flex-direction: column;
   }
 
